@@ -1,0 +1,810 @@
+= 　
+
+: author
+   @makicamel
+
+: content-source
+   TokyoWomen.rb #1
+
+:date
+   2025.03.01
+
+:theme
+   theme
+
+= 自己紹介
+
+  * @makicamel / 川原万季
+  * Ruby 💎 とビール 🍻 とお酒が好き
+  * ㈱アンドパッド
+
+  # image
+  # src = image/makicamel.png
+  # relative_width = 10
+  # align = right
+  # vertical_align = top
+  # relative_margin_right = 0
+  # relative_margin_top = 0
+
+= Ruby といえば
+　
+= Ruby といえば
+
+  * Ruby on Rails
+  * Web アプリケーション
+
+  # image
+  # src = image/fukidashi-hiruma.png
+  # relative_width = 32
+  # align = right
+  # vertical_align = bottom
+  # relative_margin_top = 12
+  # relative_margin_right = 4
+
+== プロパティ
+
+: background-image
+   image/makicamel.png
+: background-image-relative-width
+   10
+: background-image-align
+   right
+: background-image-vertical-align
+   bottom
+: background-image-relative-margin-right
+   6
+
+= Ruby といえば
+
+  * Ruby on Rails
+  * Web アプリケーション
+
+  # image
+  # src = image/fukidashi-soreigai.png
+  # relative_width = 32
+  # align = right
+  # vertical_align = bottom
+  # relative_margin_top = 12
+  # relative_margin_right = 4
+
+== プロパティ
+
+: background-image
+   image/makicamel.png
+: background-image-relative-width
+   10
+: background-image-align
+   right
+: background-image-vertical-align
+   bottom
+: background-image-relative-margin-right
+   6
+
+= Ruby といえば
+　
+= 　
+　
+
+== プロパティ
+
+: background-image
+   image/rubykaigi2024.png
+: background-image-relative-width
+   100
+
+= 　
+　\n\n\n\n\n\n\n\n\n\n\n
+(('tag:xx-small:Writing Weird Code - tompng　'))((<URL:https://rubykaigi.org/2024/presentations/tompng.html>))
+
+== プロパティ
+
+: background-image
+   image/rubykaigi-tompng.png
+: background-image-relative-width
+   101
+
+= 　
+　
+== プロパティ
+
+: background-image
+   image/rubykaigi-self-trick.png
+: background-image-relative-width
+   100
+
+= 　
+　
+  # image
+  # src = image/fukidashi-cool.png
+  # relative_width = 32
+  # align = right
+  # vertical_align = bottom
+  # relative_margin_top = 12
+  # relative_margin_right = 4
+
+== プロパティ
+
+: background-image
+   image/makicamel.png
+: background-image-relative-width
+   10
+: background-image-align
+   right
+: background-image-vertical-align
+   bottom
+: background-image-relative-margin-right
+   6
+
+= 　
+　
+  # image
+  # src = image/fukidashi-tsukuritai.png
+  # relative_width = 32
+  # align = right
+  # vertical_align = bottom
+  # relative_margin_top = 12
+  # relative_margin_right = 4
+
+== プロパティ
+
+: background-image
+   image/makicamel.png
+: background-image-relative-width
+   10
+: background-image-align
+   right
+: background-image-vertical-align
+   bottom
+: background-image-relative-margin-right
+   6
+
+= つくった
+　\n\n\n\n\n\n\n\n\n\n\n
+(('tag:xx-small:　　Road to RubyKaigi　'))((<URL:https://github.com/makicamel/road_to_rubykaigi>))
+
+== プロパティ
+
+: background-image
+   image/road_to_rubykaigi-github.png
+: background-image-relative-height
+   80
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   2
+
+= Road to RubyKaigi
+
+* ターミナル上で遊ぶ横スクロールアクションゲーム
+* バグを倒し〆切から逃れて RubyKaigi 参加を目指す
+* gem として配布
+* `gem install road_to_rubykaigi` → `road_to_rubykaigi` で遊べる
+
+\n\n\n\n
+(('tag:xx-small:　　Road to RubyKaigi　'))((<URL:https://github.com/makicamel/road_to_rubykaigi>))
+
+
+= Road to RubyKaigi
+
+* デモ
+　\n\n\n\n\n\n\n\n\n
+(('tag:xx-small:　　Road to RubyKaigi　'))((<URL:https://github.com/makicamel/road_to_rubykaigi>))
+
+== プロパティ
+
+: background-image
+   image/road_to_rubykaigi-logo.png
+: background-image-relative-height
+   70
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   6
+
+= Road to RubyKaigi のつくり方
+　
+= 基本編
+
+= 端末ゲームプログラミングの基本
+
+* アニメーション
+* 入力
+* ゲームループ
+
+= 端末ゲームプログラミングの基本
+
+* アニメーション ⬅️
+* 入力
+* ゲームループ
+
+= 端末アニメーション
+
+* パラパラ漫画
+  * ① と ② は足の位置が 1 コマ違う
+    * (('wait'))同じ位置に交互に表示させると足踏みしているように見える
+    * (('wait'))右の位置に移動し交互に表示させると歩いているように見える
+
+== プロパティ
+
+: background-image
+   image/player-anime.png
+: background-image-relative-height
+   40
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   18
+
+= 端末アニメーション
+
+* 位置
+  * (('wait'))ANSI エスケープシーケンスで指定できる
+
+= 端末アニメーション
+
+* ANSI エスケープシーケンス
+  * (('wait'))端末上で色やカーソル位置などを制御するための文字列
+
+= 端末アニメーション
+
+* ANSI エスケープシーケンス
+  * e.g. (('tag:code:\\e[33m')): 次の文字からの文字色を黄色に変える
+
+== プロパティ
+
+: background-image
+   image/ansi-color.png
+: background-image-relative-width
+   76
+: background-image-align
+   right
+: background-image-vertical-align
+   bottom
+: background-image-relative-margin-top
+   11
+: background-image-relative-margin-right
+   11
+
+= 端末アニメーション
+
+* ANSI エスケープシーケンス
+  * e.g. (('tag:code:\\e[1;1H')): 座標1;1の位置にカーソルを移動する
+    * ※ (('tag:code:y'));(('tag:code:x'))の順で指定する
+
+== プロパティ
+
+: background-image
+   image/ansi-xy.png
+: background-image-relative-width
+   76
+: background-image-align
+   right
+: background-image-vertical-align
+   bottom
+: background-image-relative-margin-top
+   11
+: background-image-relative-margin-right
+   11
+
+= 端末アニメーション
+
+  * その場で 5 回足踏みをするアニメーション
+
+      # rouge ruby
+        PLAYERS = [
+            <<~PLAYER,
+                ╭────╮
+                │　｡・◡・│
+                ╰─∪─∪╯
+            PLAYER
+            <<~PLAYER,
+                ╭────╮
+                │　｡・◡・│
+                ╰∪─∪─╯
+            PLAYER
+        ]
+        print "\e[2J" # 画面クリア
+        5.times do
+            PLAYERS.each do |player|
+                print "\e[1;1H" + player # 毎回1;1の位置に描画する
+                sleep 0.5
+            end
+        end
+
+== プロパティ
+
+: background-image
+   image/animation.gif
+: background-image-relative-width
+   20
+: background-image-align
+   right
+: background-image-vertical-align
+   top
+: background-image-relative-margin-top
+   28
+: background-image-relative-margin-right
+   6
+
+= 端末ゲームプログラミングの基本
+
+* アニメーション
+* 入力 ⬅️
+* ゲームループ
+
+= 端末入力
+
+* キー入力を受け付けてキャラクターを操作する
+
+= 端末入力
+
+* 端末の入力モード
+  * Cooked モード（カノニカルモード）
+    * 入力文字列をバッファリングし改行でプログラムへ送信する
+    * デフォルト
+  * Raw モード（非カノニカルモード）
+    * 入力文字列をバッファリングせずプログラムへすぐ送信する
+    * ゲームなどリアルタイム性がほしいもの向き
+
+= 端末入力
+
+* 端末の入力モード
+  * Ruby では IO#raw で Raw モードに変更する
+
+      # rouge ruby
+        STDIN.raw {
+          # 入力読み込み処理
+        }
+\n\n\n
+(('tag:xx-small:　　IO#raw　'))((<URL:https://docs.ruby-lang.org/ja/latest/method/IO/i/raw.html>))
+
+= 端末入力
+
+* IO#read_nonblock
+  * ノンブロッキングモードで IO からデータを読み込む
+
+      # rouge ruby
+        str = STDIN.readpartial(1) # ブロックする
+        puts :hello
+        puts str
+        # 文字入力するまで hello が表示されない
+
+        str = STDIN.read_nonblock(1, exception: false) # ブロックしない
+        puts :hello
+        puts str
+        # 文字入力前に hello が表示される
+
+(('tag:xx-small:　　IO#readpartial　'))((<URL:https://docs.ruby-lang.org/ja/latest/method/IO/i/readpartial.html>))\n
+(('tag:xx-small:　　IO#read_nonblock　'))((<URL:https://docs.ruby-lang.org/ja/latest/method/IO/i/read_nonblock.html>))
+
+= 端末入力
+
+* Raw モード + ノンブロッキングモードで入力受付け
+
+      # rouge ruby
+        STDIN.raw {
+            loop {
+                case STDIN.read_nonblock(3, exception: false)
+                when "\e[C" # right key
+                    # キャラクターを右に1コマ動かす
+                when "\e[D" # left key
+                    # キャラクターを左に1コマ動かす
+                when "q"
+                    break
+                end
+                sleep 0.1
+            }
+        }
+
+= 端末ゲームプログラミングの基本
+
+* アニメーション
+* 入力
+* ゲームループ ⬅️
+
+= ゲームループ
+
+* とは
+* ゲーム実行中に無限に繰り返すメインループのこと
+
+= ゲームループ
+
+* 以下の処理を一定のフレームレートで繰り返す
+  * 入力処理
+  * 更新処理
+    * e.g. キャラクターの状態変更、当たり判定
+  * 描画処理
+
+= ゲームループ
+
+  * ミニマムなゲームループ
+
+      # rouge ruby
+        PLAYERS = # ...
+        frame_index, x, x_min, x_max = 0, 10, 1, 20
+        STDIN.raw {
+            loop {
+                # 入力処理
+                case STDIN.read_nonblock(3, exception: false)
+                # 更新処理
+                when "\e[C" # right
+                    x += 1
+                when "\e[D" # left
+                    x -= 1
+                when "\x03" # Ctrl+C
+                    exit
+                end
+                x = x.clamp(x_min, x_max) # 描画領域内に収める
+                frame_index = (frame_index + 1) % 2
+                # 描画処理
+                print "\e[2J" # 画面クリア
+                PLAYERS[frame_index].lines.each_with_index { |line, i| print "\e[#{i+1};#{x}H" + line }
+                sleep 0.5 # 2FPS
+            }
+        }
+
+= ゲームループ
+
+  * 「←」「→」を受け付けて左右に動くゲームができた 🎉
+  # image
+  # src = image/gameloop.gif
+  # relative_width = 60
+  # align = center
+  # vertical_align = middle
+
+= Road to RubyKaigi 編
+
+= 端末ゲームプログラミング実践編
+
+* レイヤー合成
+* 物理シミュレーション
+
+= 端末ゲームプログラミング実践編
+
+* レイヤー合成 ⬅️
+* 物理シミュレーション
+
+= レイヤー合成
+
+* (('wait'))オブジェクトの種類
+
+== プロパティ
+
+: background-image
+   image/layer1.png
+: background-image-relative-width
+   56
+: background-image-align
+   center
+: background-image-vertical-align
+   bottom
+
+= レイヤー合成
+
+  * オブジェクトの種類
+    * 8 種類
+
+  # image
+  # src = image/makicamel-clean.png
+  # relative_width = 20
+  # align = right
+  # vertical_align = bottom
+  # relative_margin_top = 24
+  # relative_margin_right = -8
+
+== プロパティ
+
+: background-image
+   image/layer2.png
+: background-image-relative-width
+   56
+: background-image-align
+   center
+: background-image-vertical-align
+   bottom
+
+= レイヤー合成
+
+* オブジェクトをレイヤーとクラスで管理する
+  * 背景レイヤー
+    * 背景（アスキーアート）
+    * マスク（通行可否情報）
+  * 前景レイヤー
+    * プレイヤー（ひとつ）
+    * 敵オブジェクト（複数個） etc
+  * その他
+    * スコア
+
+= レイヤー合成
+
+* オブジェクトをレイヤーとクラスで管理する
+* 描画時にマージする
+
+= 背景レイヤー
+
+* (('wait'))背景（アスキーアート）
+  * アスキーアートを読み込み、描画領域分（100 x 30）を描画
+  * 1 文字を 1 つの「Tile」クラスのオブジェクトにする
+    * 100 x 30 の 2 次元配列で管理
+
+== プロパティ
+
+: background-image
+   image/background-clip1.png
+: background-image-relative-width
+   60
+: background-image-align
+   center
+: background-image-vertical-align
+   bottom
+
+= 背景レイヤー
+
+* マスク（通行可否情報）
+  * 背景のアスキーアートからマスクデータを作成
+  * 通行不可にしたい箇所をマスク文字(#)に置換
+  * 該当座標がマスク文字（#）の Tile は通行不可オブジェクト
+
+== プロパティ
+
+: background-image
+   image/background-clip2.png
+: background-image-relative-width
+   60
+: background-image-align
+   center
+: background-image-vertical-align
+   bottom
+
+= 前景レイヤー
+　
+= 前景レイヤー
+
+  * プレイヤーキャラクター
+  * ボーナスオブジェクト
+  * 敵オブジェクト
+  * エフェクト
+  * 〆切
+
+  # image
+  # src = image/fukidashi-ippai.png
+  # relative_width = 32
+  # align = right
+  # vertical_align = bottom
+  # relative_margin_top = 12
+  # relative_margin_right = 4
+
+== プロパティ
+
+: background-image
+   image/makicamel.png
+: background-image-relative-width
+   10
+: background-image-align
+   right
+: background-image-vertical-align
+   bottom
+: background-image-relative-margin-right
+   6
+
+= 前景レイヤー
+
+* 各クラス 描画領域分（100 x 30）の 2 次元配列を確保
+  * 座標位置の配列に 1 文字ずつ格納
+
+== プロパティ
+
+: background-image
+   image/array.png
+: background-image-relative-width
+   90
+: background-image-align
+   center
+: background-image-vertical-align
+   bottom
+
+= 前景レイヤー
+
+* 「1 文字」
+  * 1 文字として扱いたい単位
+
+= 前景レイヤー
+
+* 「1 文字」
+  * 1 文字として扱いたい単位
+  * "💎" は 2 文字として扱う
+    * 半角文字 2 文字分の描画領域を使用するので
+    * 配列の次の要素に NULL 文字（制御文字）を入れて 2 文字分の領域を確保する
+      * ["💎", "\0"]
+
+= 前景レイヤー
+
+* 「1 文字」
+  * 1 文字として扱いたい単位
+  * "\e[33m" + "⚡︎" + "\e[38;5;238m" は 1 文字として扱う
+    * ANSI エスケープシーケンス自身は描画されないので
+
+= レイヤー合成
+
+* 背景レイヤと前景レイヤの各クラスの配列をマージ
+  * 背景 → プレイヤー → 敵 → エフェクト ... のように後ろから順にマージ
+* マージ済配列を描画する
+
+= 端末ゲームプログラミング実践編
+
+* レイヤー合成
+* 物理シミュレーション ⬅️
+
+= 物理シミュレーション
+
+* とは
+* 物理法則を計算することで現象を数値的に再現すること
+
+= 物理シミュレーション
+
+* e.g. 重力加速度に従って落ちるりんごのシミュレーション
+  * 速度(m/s) = 速度(m/s) + 重力加速度(m/s²) * 時間(s)
+  * 移動距離(m) = 移動距離(m) + 速度(m/s) * 時間(s)
+
+      # rouge ruby
+        height, goal_height = 1, 15
+        velocity = 0.0 # 速度 (m/s) 初速は0
+        step_second = 0.3 # ステップ時間 (s)
+        gravity = 9.8 # 重力加速度 (m/s²)
+
+        puts "\e[2J" + "\e[#{height};10H" + "🌳"
+        while height < goal_height
+            velocity += gravity * step_second
+            height += velocity * step_second
+            puts "\e[#{height.round.to_i};10H" + "🍎"
+            sleep step_second
+        end
+        puts "\e[#{height.round.to_i+1};10H" + "🌎"
+
+== プロパティ
+
+: background-image
+   image/apple.png
+: background-image-relative-height
+   86
+: background-image-align
+   right
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-right
+   4
+
+= ジャンプシミュレーション
+　
+= ジャンプシミュレーション
+
+* (('wait'))上昇時
+  * 初速が最も大きい
+  * 高度が高くなるほど垂直速度が下がる
+  * 垂直速度が 0 になると下降に切り替わる
+* (('wait'))下降時
+  * 初速 0
+  * 高度が低くなるほど垂直速度が上がる
+
+\n
+(('tag:xx-small:　　※ 今回は垂直速度ではなく垂直速度の絶対値が大小します'))
+
+== プロパティ
+
+: background-image
+   image/jump-simulation1.png
+: background-image-relative-height
+   80
+: background-image-align
+   right
+: background-image-vertical-align
+   top
+: background-image-relative-margin-top
+   10
+
+= ジャンプシミュレーション
+
+\n\n\n\n\n\n\n\n\n\n
+(('tag:xx-small:　　垂直速度のみ持つと真上にジャンプする'))\n
+(('tag:xx-small:　　垂直速度と水平速度を持つと放物線状にジャンプする'))
+
+== プロパティ
+
+: background-image
+   image/jump-simulation2.png
+: background-image-relative-height
+   68
+: background-image-align
+   right
+: background-image-vertical-align
+   top
+: background-image-relative-margin-right
+   -1
+: background-image-relative-margin-top
+   12
+
+= ジャンプシミュレーション
+
+* ジャンプキーの入力を受付けると垂直速度をセット（初速）
+* 初速は上向きなのでマイナス
+  * 端末座標の y 軸は上が小さく下が大きい
+
+      # rouge ruby
+        # ジャンプ開始処理
+        # JUMP_INITIAL_VELOCITY: 垂直速度初速  (-40)
+        # @y_velocity: 垂直速度
+        def jump
+            unless jumping?
+                @jumping = true
+                @y_velocity = JUMP_INITIAL_VELOCITY
+            end
+
+== プロパティ
+
+: background-image
+   image/xy.png
+: background-image-relative-width
+   30
+: background-image-align
+   left
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   14
+: background-image-relative-margin-left
+   6
+
+= ジャンプシミュレーション
+
+* 垂直速度(コマ/秒) = 垂直速度 + (重力加速度(コマ/秒²) * 経過時間(秒))
+* 垂直位置(コマ) = 垂直位置 + (垂直速度(コマ/秒) * 経過時間(秒))
+　
+      # rouge ruby
+        # 更新処理
+        # JUMP_GRAVITY: 重力加速度 (80)
+        # @y_velocity: 垂直速度 (初期値は -40)
+        def update
+            # ...
+                @y_velocity += JUMP_GRAVITY * elapsed_time
+                @y += @y_velocity * elapsed_time
+
+== プロパティ
+
+: background-image
+   image/jump-simulation2.png
+: background-image-relative-height
+   56
+: background-image-align
+   left
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   20
+: background-image-relative-margin-left
+   1
+
+= 物理シミュレーション
+
+* 物理シミュレーションをすると表現の幅が増える
+
+= Road to RubyKaigi のつくり方
+
+* アニメーション
+* 入力処理
+* ゲームループ
+* レイヤー合成
+* 物理シミュレーション
+
+= ゲームづくり
+
+* (('wait'))すぐ動く、すぐたのしい
+* (('wait'))Ruby すごい
+  * 標準ライブラリが豊富
+  * 文字列操作が得意
+* (('wait'))数学・物理が苦手でもなんとかなる
+
+= Special Thanks
+
+@youchan
+
+= Enjoy Creating!
